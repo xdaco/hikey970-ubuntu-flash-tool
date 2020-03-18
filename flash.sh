@@ -1,7 +1,7 @@
 #!/bin/bash 
 set -ue
 
-fastboot flash ptable prm_ptable.img
+fastboot flash ptable 64gtoendprm_ptable.img
 fastboot flash xloader sec_xloader.img
 fastboot flash fastboot l-loader.bin
 fastboot flash fip fip.bin
